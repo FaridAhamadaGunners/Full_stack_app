@@ -8,7 +8,7 @@ st.title(f"Ma première WebAPP ML")
 # fastapi endpoint
 # Run en local docker-compose
 # url = 'http://fastapi:8000'
-url = 'https://genderdeployapi.herokuapp.com'
+url = 'https://honchoappgender.herokuapp.com'
 prefix = '/gender'
 endpoint = '/predict_gender'
 
