@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from GenderClassifier import GenderClassifier
+from fastApi.Gender.GenderClassifier import GenderClassifier
 from starlette.responses import JSONResponse,PlainTextResponse
 
 router = APIRouter()

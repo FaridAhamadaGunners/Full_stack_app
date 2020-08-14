@@ -1,6 +1,6 @@
 import os
 
-import preprocess as prepro
+import fastApi.Gender.preprocess as prepro
 import numpy as np
 import pandas as pd
 from joblib import load

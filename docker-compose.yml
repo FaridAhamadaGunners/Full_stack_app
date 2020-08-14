@@ -2,18 +2,18 @@ version: '3'
 
 services:
   fastapi:
-    build: fastapi/
+    build: fastApi/
     ports:
       - 8000:8000
     networks:
       - deploy_network
     #command: uvicorn main:app --host 0.0.0.0 --port 8000
-    container_name: fastapi
+    container_name: fastApi
 
   streamlit:
     build: streamlit/
     depends_on:
-      - fastapi
+      - fastApi
     ports:
         - 8501:8501
     networks:

@@ -1,16 +1,16 @@
 FROM tiangolo/uvicorn-gunicorn:python3.7
 
-RUN mkdir /fastapi
+RUN mkdir /fastApi
 
-COPY requirements.txt /fastapi
+COPY requirements.txt /fastApi
 
 WORKDIR /fastapi
 
 RUN pip install --upgrade pip && pip install -r requirements.txt
 
-COPY . /fastapi
+COPY . /fastApi
 
-WORKDIR /fastapi/Gender
+WORKDIR /fastApi/Gender
 
 EXPOSE 8000
 
