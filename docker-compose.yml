@@ -1,7 +1,7 @@
 version: '3'
 
 services:
-  fastapi:
+  fastApi:
     build: fastApi/
     ports:
       - 8000:8000
