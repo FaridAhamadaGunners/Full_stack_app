@@ -8,3 +8,4 @@ fastapi
 honcho
 #requests==2.23.0
 #streamlit==0.63.1
+uvicorn
